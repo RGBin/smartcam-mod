@@ -164,9 +164,9 @@ overlay_node_foreach (GNode * node, gpointer kpriv_ptr)
             kpriv->class_list[idx].class_color.green,
             kpriv->class_list[idx].class_color.red};
     } else {
-      /* If there are no classes specified, we will go with default blue */
+      /* If there are no classes specified, we will go with default pink */
       clr = {
-      255, 0, 0};
+      255, 105, 180};
     }
 
     char label_string[MAX_LABEL_LEN];
